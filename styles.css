@@ -1,0 +1,55 @@
+/* .attribution { font-size: 25px; 
+    background-color: brown;}
+
+
+    h1{ background-color: cadetblue; font-size:20px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .button { font-size: large;}
+    .aside { text-align: left;    }
+    .article{ text-align: center;  }
+    .form {  }
+    */
+    body {background:url("images/bg-intro-desktop.png");
+        background-color: orangered; 
+        }
+    .attribution {font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; 
+    flex-wrap: wrap;
+    font-family: 'poppins',sans-serif;}
+
+    h1{ color: white; 
+    font-size: 35px;
+    }
+    span{color: white; 
+    font-size: medium; 
+    }
+    .aside {flex-grow: 1;
+        align-self:center;
+        margin: 30px;
+        
+    }
+    .article{flex-grow: 2; 
+    margin:50px;}
+     .form {background-color: white;
+        width: 90%;
+    border-radius: 0.5rem;}
+     .button {background-color: purple;
+        margin: 10px 0;
+        height: 3rem;
+        border-radius: 0.5rem;
+        width: 90%;}
+     .button > span { 
+        color: white;
+    }
+    input {  height: 3rem;
+        border-radius: 0.5rem;
+        width: 80%;
+        margin-top: 30px;
+        margin-left:30px;
+    font-size:large ;
+;}
+        
+    #submit { background-color: green;
+    color: white;}
