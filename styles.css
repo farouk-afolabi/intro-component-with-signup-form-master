@@ -1,6 +1,4 @@
-/* .attribution { font-size: 25px; 
-    background-color: brown;}
-
+/* 
 
     h1{ background-color: cadetblue; font-size:20px;}
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -9,90 +7,100 @@
     .article{ text-align: center;  }
     .form {  }
     */
-    body {background:url("images/bg-intro-desktop.png");
-        background-color: brown; 
-        }
+  
+
+   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+    *{ box-sizing: border-box;
+        margin:0;
+        padding:0;
+    }
+    body{ background-image: url(images/bg-intro-mobile.png);
+        background-color: #ff7a7a;
+        font-family: 'poppins',sans-serif; }
+
 
     h1{ color: white; 
-        font-size: 35px;
-        }
-        span{color: white; 
-        font-size: medium; 
-        }
-        input {  height: 3rem;
-            border-radius: 0.5rem;
-            width: 80%;
-            margin-top: 30px;
-            margin-left: 30px;
-        font-size:large ;
-    }
+        line-height: 1.333em;
+         font-size: 1.7rem;
+       }
 
-    .attribution {font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end; 
-    flex-wrap: wrap;
-    font-family: 'poppins',sans-serif;
-}
-
-    .aside {flex-grow: 1;
-        align-self:center;
-        margin: 30px;
-        
-    }
-    .article{flex-grow: 2; 
-    margin: 50px;
-}
-     .form {background-color: white;
+    p{ color: white; 
+            font-size: medium; 
+            font-weight: 400;
+           margin: 20px 0px;
+     }
+     
+     
+     
+     input {  height: 3rem;
+        border-radius: 0.25rem;
         width: 90%;
-    border-radius: 0.5rem;}
-
-     .button {background-color: purple;
-        margin: 10px 0;
-        height: 3rem;
-        border-radius: 0.5rem;
-        width: 90%;
-    }
-     .button > span { 
-        color: white;
-    }
-    .Terms 
-        
-    #submit { background-color: green;
-    color: white;}
-    @media  only screen and (max-width: 768px){
-        /* for mobile phones */ 
-       
-        body {background: url("images/bg-intro-mobile.png");
-        background-color: orange;}
-        
-        .attribution { display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: nowrap;}
-
-        .form {background-color: white;
-            width: 100%;
-        border-radius: 0.5rem;
-    padding-right: 5px;
+        margin:15px 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #b9b6d3;
+     }
     
-    }
     
-         .button {background-color: purple;
-            margin: 10px 0;
-            height: 5rem;
-            border-radius: 0.5rem;
-            width: 100%;
-            padding-right:  5px;
-        }
-        #submit { background-color: green;
-            color: white;
-            height: 3rem;
-            border-radius: 0.5rem;
-            width: 80%;
-            margin-top: 30px;
-            margin-left: 30px;
-            margin-right: 20px;
-            font-size: large;
+    
+    
+    
+    .aside {padding:60px  30px;
             }
+            
+            
+            
+            
+    .article {padding:0px;}
+
+    .form { background-color: white;
+            width: 90%;
+            border-radius: 0.5rem;
+            margin:10px 15px;
+            
+          }
+   
+
+    .button { background-color: purple;
+        margin: 10px 0;
+        height: 5rem;
+        border-radius: 0.5rem;
+        width: 90%;
+        font-size: 0.9rem;
+        
     }
+
+
+    .submit { background-color:green;
+        color: white;
+        height: 3rem;
+        border-radius: 0.25rem;
+        width: 90%;
+        font-size: 0.7rem;
+        line-height: 0.6em;
+        text-transform: uppercase;
+        font-weight: 500;
+        
+        }
+
+
+
+        .attribution { font-size: 11px; 
+            text-align: center;
+        }
+      
+      
+    
+      
+       .attribution a {
+                color: hsl(228, 45%, 44%);
+        }
+        
+        
+        .Terms  {
+            font-size: 0.8rem;
+            color: #b9b6d3;
+            margin:10px;
+        }
+
