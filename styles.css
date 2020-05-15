@@ -57,13 +57,13 @@
     .form { background-color: white;
             width: 90%;
             border-radius: 0.5rem;
-            margin:10px 15px;
+            margin:10px 25px;
             
           }
    
 
     .button { background-color: purple;
-        margin: 10px 0;
+        margin: 10px;
         height: 5rem;
         border-radius: 0.5rem;
         width: 90%;
@@ -120,30 +120,40 @@
             width: 90%;
          }
 
-    .attribution {font-size: 15px;
-    display: flex;
-    flex-direction: row; 
-    font-family: 'poppins',sans-serif;
+    .attribution {  font-size: 15px;
+                    display: flex;
+                    flex-direction: row; 
+                    font-family: 'poppins',sans-serif;
      }
 
-    .aside {flex-grow: 2;
-        align-self:center;
-        width: 50%;
-        margin:0px 50px;
-        
-    }
+    .aside {   flex-grow: 2;
+               align-self:center;
+               width: 50%;
+               margin:0px 50px;
+           }
+    
+    
+    
     .aside h1{ padding:0px 90px;}
+
+
     .aside p{ padding:0px 30px;}
     
-    .article{flex-grow: 1; 
-             margin: 50px 20px;
+    .article{ flex-grow: 1; 
+              margin: 50px 20px;
             }
-     .form {background-color: white;
-        width: 100%;
-    border-radius: 0.25rem;
+     
+     
+     
+     
+    .form {background-color: white;
+         width: 100%;
+           border-radius: 0.25rem;
           }
 
-     .button {background-color: purple;
+     
+     
+    .button {background-color: purple;
         margin: 10px 15px;
         height: 3rem;
         border-radius: 0.25rem;
